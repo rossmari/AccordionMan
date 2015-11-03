@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   post '/updates/handle' => 'updates#handle'
 
+  root 'main#index'
+
 end
