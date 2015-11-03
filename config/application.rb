@@ -24,5 +24,7 @@ module AccordionMan
     config.active_record.raise_in_transactional_callbacks = true
 
     config.autoload_paths << Rails.root.join('lib')
+
+    config.serve_static_files = true
   end
 end
